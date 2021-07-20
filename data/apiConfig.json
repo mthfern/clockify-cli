@@ -1,0 +1,25 @@
+{
+  "endpoint": "https://api.clockify.me/api/v1",
+  "resources": [
+    {
+      "name": "getWorkspaces",
+      "method": "get",
+      "route": "/workspaces"
+    },
+    {
+      "name": "getProjects",
+      "method": "get",
+      "route": "/workspaces/{workspaceId}/projects"
+    },
+    {
+      "name": "getTasks",
+      "method": "get",
+      "route": "/workspaces/{workspaceId}/projects/{projectId}/tasks"
+    },
+    {
+      "name": "addTimeEntry",
+      "method": "post",
+      "route": "/workspaces/{workspaceId}/time-entries"
+    }
+  ]
+}

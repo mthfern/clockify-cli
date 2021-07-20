@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "descrshort": "Invalid sintax.",
+    "descrlong": "Expected npm run add -- <OPTIONS>\n\nOPTIONS:\n\t--date <YYYY-MM-DD> or <YYYY/MM/DD>\n\t--hours <start:HHMI[-break:HHMI-endbreak:HHMI]-end:HHMI>\n\t--descr <description>"
+  },
+  {
+    "id": 2,
+    "descrshort": "Invalid date.",
+    "descrlong": "Expected patterns <YYYY-MM-DD>[<YYYY/MM/DD>]"
+  },
+  {
+    "id": 2.1,
+    "descrshort": "Invalid hours.",
+    "descrlong": "Expected pattern <start:HHMI[-break:HHMI-endbreak:HHMI]-end:HHMI>"
+  },
+  {
+    "id": 3,
+    "descrshort": "Invalid method.",
+    "descrlong": "Expected GET, POST, PUT or DELETE."
+  },
+  {
+    "id": 4,
+    "descrshort": "Invalid sintax.",
+    "descrlong": "Expected npm run config -- <OPTIONS>\n\nOPTIONS:\n\t--workspace <workspace>\n\t--project <project>\n\t--task <task>\n\t--key <api key>"
+  },
+  {
+    "id": 5,
+    "descrshort": "{OBJECT} {VALUE} not found.",
+    "descrlong": "Check if param values are correct."
+  },
+  {
+    "id": 6,
+    "descrshort": "Invalid sintax.",
+    "descrlong": "Expected npm run [config] [add] -- <OPTIONS>\n\nconfig OPTIONS:\n\t--workspace <workspace>\n\t--project <project>\n\t--task <task>\n\t--key <api key>\n\nadd OPTIONS:\n\t--date <YYYY-MM-DD> or <YYYY/MM/DD>\n\t--hours <start:HHMI[-break:HHMI-endbreak:HHMI]-end:HHMI>\n\t--descr <description>"
+  }
+]
